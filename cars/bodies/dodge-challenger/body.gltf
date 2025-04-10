@@ -14,7 +14,7 @@
 	],
 	"nodes":[
 		{
-			"name":"mirror-l",
+			"name":"mirror-l-unique",
 			"translation":[
 				2.6461257934570312,
 				0.7197136878967285,
@@ -22,7 +22,7 @@
 			]
 		},
 		{
-			"name":"mirror-r",
+			"name":"mirror-r-unique",
 			"rotation":[
 				0,
 				-1,
@@ -159,7 +159,7 @@
 	"buffers":[
 		{
 			"byteLength":1871112,
-			"uri":"dodge-challenger.bin"
+			"uri":"body.bin"
 		}
 	]
 }

@@ -15,10 +15,16 @@
 	"nodes":[
 		{
 			"name":"mount_point",
+			"rotation":[
+				0.1736481636762619,
+				-0.9848077893257141,
+				0,
+				4.304731149318286e-08
+			],
 			"translation":[
-				1.155687928199768,
-				0.0009856251999735832,
-				0.0009271670132875443
+				-0.4016006588935852,
+				-0.1552591323852539,
+				0.23241567611694336
 			]
 		},
 		{
@@ -26,12 +32,17 @@
 				0
 			],
 			"mesh":0,
-			"name":"wheel"
+			"name":"mirror-l",
+			"translation":[
+				-0.01367131620645523,
+				0,
+				0
+			]
 		}
 	],
 	"meshes":[
 		{
-			"name":"wheel",
+			"name":"body",
 			"primitives":[
 				{
 					"attributes":{
@@ -47,56 +58,56 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":15952,
+			"count":5098,
 			"max":[
-				1.16015625,
-				1.0941343307495117,
-				1.07965087890625
+				0.3827085494995117,
+				0.3101738691329956,
+				0.4063442349433899
 			],
 			"min":[
-				-0.51739501953125,
-				-1.0838651657104492,
-				-1.098541259765625
+				-0.43535375595092773,
+				-0.21758341789245605,
+				-0.32364779710769653
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":15952,
+			"count":5098,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5123,
-			"count":17628,
+			"count":5439,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":191424,
+			"byteLength":61176,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":191424,
-			"byteOffset":191424,
+			"byteLength":61176,
+			"byteOffset":61176,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":35256,
-			"byteOffset":382848,
+			"byteLength":10878,
+			"byteOffset":122352,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":418104,
-			"uri":"dodge-challenger.bin"
+			"byteLength":133232,
+			"uri":"mirror-l-unique.bin"
 		}
 	]
 }
