@@ -14,35 +14,24 @@
 	],
 	"nodes":[
 		{
-			"name":"mount_point",
-			"rotation":[
-				0.1736481636762619,
-				-0.9848077893257141,
-				0,
-				4.304731149318286e-08
-			],
-			"translation":[
-				-0.4016006588935852,
-				-0.1552591323852539,
-				0.23241567611694336
-			]
+			"name":"mount_point"
 		},
 		{
 			"children":[
 				0
 			],
 			"mesh":0,
-			"name":"mirror-l",
+			"name":"mirror-l-unique",
 			"translation":[
-				-0.01367131620645523,
-				0,
-				0
+				-0.4144975543022156,
+				-0.1519555300474167,
+				0.22879354655742645
 			]
 		}
 	],
 	"meshes":[
 		{
-			"name":"body",
+			"name":"mirror-l-unique",
 			"primitives":[
 				{
 					"attributes":{
@@ -58,55 +47,55 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":5098,
+			"count":5168,
 			"max":[
-				0.3827085494995117,
-				0.3101738691329956,
-				0.4063442349433899
+				0.7835347652435303,
+				0.4621294140815735,
+				0.17755068838596344
 			],
 			"min":[
-				-0.43535375595092773,
-				-0.21758341789245605,
-				-0.32364779710769653
+				-0.03452751040458679,
+				-0.06562788784503937,
+				-0.5524413585662842
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":5098,
+			"count":5168,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5123,
-			"count":5439,
+			"count":5436,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":61176,
+			"byteLength":62016,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":61176,
-			"byteOffset":61176,
+			"byteLength":62016,
+			"byteOffset":62016,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":10878,
-			"byteOffset":122352,
+			"byteLength":10872,
+			"byteOffset":124032,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":133232,
+			"byteLength":134904,
 			"uri":"mirror-l-unique.bin"
 		}
 	]
