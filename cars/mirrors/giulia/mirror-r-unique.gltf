@@ -8,46 +8,30 @@
 		{
 			"name":"Scene",
 			"nodes":[
-				0,
-				2
+				1
 			]
 		}
 	],
 	"nodes":[
 		{
-			"mesh":0,
-			"name":"mirror-l",
-			"translation":[
-				6.514705657958984,
-				0,
-				0
-			]
-		},
-		{
 			"name":"mount_point",
-			"rotation":[
-				0,
-				0,
-				-0.1736481636762619,
-				0.9848077893257141
-			],
 			"translation":[
-				0.4060239791870117,
-				-0.17010562121868134,
-				0.23905114829540253
+				0.4150787889957428,
+				-0.1624140441417694,
+				0.23514783382415771
 			]
 		},
 		{
 			"children":[
-				1
+				0
 			],
-			"mesh":1,
-			"name":"mirror-r"
+			"mesh":0,
+			"name":"giulia-right"
 		}
 	],
 	"meshes":[
 		{
-			"name":"body.002",
+			"name":"giulia-right",
 			"primitives":[
 				{
 					"attributes":{
@@ -57,73 +41,33 @@
 					"indices":2
 				}
 			]
-		},
-		{
-			"name":"body.003",
-			"primitives":[
-				{
-					"attributes":{
-						"POSITION":3,
-						"NORMAL":4
-					},
-					"indices":5
-				}
-			]
 		}
 	],
 	"accessors":[
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":5098,
+			"count":4964,
 			"max":[
-				3.2761340141296387,
-				1.7092119455337524,
-				1.3260573148727417
+				0.4434185028076172,
+				0.30026936531066895,
+				0.39809247851371765
 			],
 			"min":[
-				2.458071708679199,
-				1.1814546585083008,
-				0.5960652828216553
+				-0.36177587509155273,
+				-0.2251230627298355,
+				-0.31242457032203674
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":5098,
+			"count":4964,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
-			"componentType":5123,
-			"count":5439,
-			"type":"SCALAR"
-		},
-		{
-			"bufferView":3,
-			"componentType":5126,
-			"count":4854,
-			"max":[
-				0.4433870315551758,
-				0.30026930570602417,
-				0.3980928063392639
-			],
-			"min":[
-				-0.36180758476257324,
-				-0.2251231074333191,
-				-0.3124242424964905
-			],
-			"type":"VEC3"
-		},
-		{
-			"bufferView":4,
-			"componentType":5126,
-			"count":4854,
-			"type":"VEC3"
-		},
-		{
-			"bufferView":5,
 			"componentType":5123,
 			"count":5028,
 			"type":"SCALAR"
@@ -132,44 +76,26 @@
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":61176,
+			"byteLength":59568,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":61176,
-			"byteOffset":61176,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":10878,
-			"byteOffset":122352,
-			"target":34963
-		},
-		{
-			"buffer":0,
-			"byteLength":58248,
-			"byteOffset":133232,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":58248,
-			"byteOffset":191480,
+			"byteLength":59568,
+			"byteOffset":59568,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":10056,
-			"byteOffset":249728,
+			"byteOffset":119136,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":259784,
+			"byteLength":129192,
 			"uri":"mirror-r-unique.bin"
 		}
 	]
